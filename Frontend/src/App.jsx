@@ -8,6 +8,7 @@ function App() {
 
   return (
     <>
+    <h3>{import.meta.env.VITE_LOCAL_URL}</h3>
       <div>
         <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
